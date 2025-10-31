@@ -10,6 +10,7 @@ import Certification from "./pages/Certification";
 import TrainingAttended from "./pages/TrainingAttended";
 import TrainingImparted from "./pages/TrainingImparted";
 import ProjectRollOn from "./pages/ProjectRollOn";
+import ProjectRollOff from "./pages/ProjectRollOff";
 import Registration from "./pages/Registration";
 import NotFound from "./pages/NotFound";
 
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/training/attended" element={<TrainingAttended />} />
             <Route path="/training/imparted" element={<TrainingImparted />} />
             <Route path="/project/roll-on" element={<ProjectRollOn />} />
+            <Route path="/project/roll-off" element={<ProjectRollOff />} />
             <Route path="/registration" element={<Registration />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
